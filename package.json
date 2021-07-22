@@ -1,0 +1,26 @@
+{
+  "name": "learning.path",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metinfilz/learning.path.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metinfilz/learning.path/issues"
+  },
+  "homepage": "https://github.com/metinfilz/learning.path#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-flow": "^7.14.5",
+    "flow-bin": "^0.156.0"
+  }
+}
